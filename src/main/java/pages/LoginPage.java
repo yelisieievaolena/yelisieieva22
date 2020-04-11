@@ -72,6 +72,7 @@ public class LoginPage extends ParentPage {
     }
 
         public void loginToPage(String login, String pass){
+            openPageLogin();
             inputLogin(login);
             inputPassword(pass);
             clickSubmitButton();

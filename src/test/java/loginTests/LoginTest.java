@@ -28,7 +28,7 @@ public class LoginTest {
                 webdriver.findElement(By.name("_username")).clear();
                 webdriver.findElement(By.name("_username")).sendKeys("Student");
                 webdriver.findElement(By.name("_password")).clear();
-                webdriver.findElement(By.name("_password")).sendKeys("909090");
+                webdriver.findElement(By.name("_password")).sendKeys("9090190");
                 webdriver.findElement(By.xpath(".//button[@type = 'submit']")).click();
                 Assert.assertTrue(webdriver.findElement(By.xpath(".//div[@class = 'pull-left info']")).isDisplayed());
  }

@@ -1,11 +1,9 @@
 package pages;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pageElements.LeftMenu;
 import parentPage.ParentPage;
 
 public class HomePage extends ParentPage {
